@@ -48,18 +48,16 @@ namespace examen_practico_RA2_DenzelAlvarez
             Cerrar_Programa();
         }
 
-
-        private void btnEliminar_Click(object sender, EventArgs e)
+        private void btnEliminar_Click_1(object sender, EventArgs e)
         {
-
             Eliminar_elemento();
-
         }
-        private void btn_limpiar_Click(object sender, EventArgs e)
-        {
 
+        private void btn_limpiar_Click_1(object sender, EventArgs e)
+        {
             Limpiar_Formulario();
         }
+
 
 
         public void Agregar_Datos()
@@ -132,7 +130,7 @@ namespace examen_practico_RA2_DenzelAlvarez
 
         public void Limpiar_Formulario()
         {
-            DialogResult eliminar = MessageBox.Show("¿Desea Limpiar este formulario?", "Limpiar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult eliminar = MessageBox.Show("¿Desea Limpiar este formulario?", "Limpiar:", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (eliminar == DialogResult.Yes)
             {
