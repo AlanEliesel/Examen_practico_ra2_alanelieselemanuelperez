@@ -191,7 +191,7 @@ namespace examen_practico_RA2_DenzelAlvarez
             btnEliminar.Enabled = true;
             btnNuevo.Enabled = true;
 
-            string path = @"C:\Users\Alan\source\repos\examen_practico_ra2_alanemanuel\examen_practico_ra2_alanemanuel\archivo.txt";
+            string path = @"C:\Users\Alan\source\repos\Examen_practico_ra2_alanelieselemanuelperez\Examen_practico_ra2_alanelieselemanuelperez\archivo.txt";
 
             using (StreamWriter sw = new StreamWriter(path))
             {
